@@ -1,12 +1,3 @@
 #!/bin/bash
 echo $LS
-APP
-DOC
-DROP
-MOVIES
-PICS
-DESK
-DOWN
-LIB
-MUS
-PUB
+
