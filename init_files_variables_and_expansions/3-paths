@@ -1,3 +1,2 @@
 #!/bin/bash
-path_length=$(echo "$PATH" | wc -l)
-echo $path_length
+path_length=$(echo "$PATH" | wc -l); echo $path_length
