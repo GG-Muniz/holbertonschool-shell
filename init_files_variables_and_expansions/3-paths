@@ -1,3 +1,2 @@
 #!/bin/bash
-printf '$PATH=%s'
-
+echo "$PATH" | tr ':' '\n'  | wc -l
