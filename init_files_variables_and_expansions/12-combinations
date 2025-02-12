@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z};{ for j in {a..z};{ if [[$i$j != oo ]]; then echo $i$j; fi; };};
+echo {a..z}{a..z}\ | tr \ \\n | grep -v oo
