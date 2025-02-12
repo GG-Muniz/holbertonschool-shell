@@ -1,2 +1,2 @@
 #!/bin/bash
-[base2]10
+[base$BINARY]10
