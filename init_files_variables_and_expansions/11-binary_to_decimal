@@ -1,2 +1,2 @@
 #!/bin/bash
-[base$BINARY]10
+echo "[base$BINARY]10"
