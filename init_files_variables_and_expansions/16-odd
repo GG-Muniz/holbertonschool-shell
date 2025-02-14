@@ -1,2 +1,2 @@
 #!/bin/bash
-\ls -1 | ./16-odd
+perl -ne 'print if $. % 2 == 1'
