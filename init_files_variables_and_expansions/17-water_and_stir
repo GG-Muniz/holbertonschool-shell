@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -v water="$WATER" -v stir="$STIR" 'BEGIN { print (water + stir) }'
